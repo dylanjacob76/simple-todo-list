@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,29 @@
     <title>Simple Todo List</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
-    
+<body>
+    <main>
+        <div class="container">
+            <div class="todo">
+                <div class="todo__header">
+                    <h1 class="todo__title">Todo's</h1>
+                    <label for="todo input">
+                        <input class="todo__input" type="text" placeholder="enter a todo">
+                    </label>
+                </div>
+                <div class="todo__body">
+                    <ul class="todo__list">
+                        <li class="todo__item">Wake up at 6am</li>
+                        <li class="todo__item">Workout</li>
+                        <li class="todo__item">Code for 8 hours</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
     <script src="app.js"></script>
 </body>
+
 </html>
