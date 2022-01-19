@@ -52,7 +52,7 @@ body {
 }
 
 .todo__item:hover {
-    cursor: default;
+    cursor:pointer
 }
 
 .done {
